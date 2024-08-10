@@ -44,7 +44,7 @@ body, html {
 
 .mid {
     position: relative;
-    top: 20%;
+    top: 30%;
     text-align: center;
     color: white;
     z-index: 1;
@@ -83,13 +83,18 @@ body{
     
 }
 .img01 {
-    height: 100px;
+    height: 300px;
     max-width: 100%;
     display: flex;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-right: 150px;
+    margin-bottom: 50px;
     justify-content: center;
     align-items: center; 
+}
+.img01 img{
+    height: 300px;
+    width: 400px;
 }
 .mat1 {
     font-size: 15px;
@@ -184,10 +189,15 @@ video {
 }
 
 .container22 {
-    width: 80%;
+    width: 100%;
     max-width: 1000px;
     margin-left: 100px;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 300px;
 }
 
 .header22 {
@@ -290,7 +300,16 @@ video {
     border-radius: 10px;
 }
 
-
+.left44{
+    line-height: 30px;
+    text-align: center;
+    margin-top: 60PX;
+    font-size: 20px;
+    color: white;
+}
+.P44{
+    color: white;
+}
 .right44 {
     width: 45%;
 }
@@ -338,6 +357,7 @@ form button:hover {
     align-items: center;
     justify-content: center; 
     margin: 0 auto; 
+    line-height: 40px;
 }
 
 .text77 {
