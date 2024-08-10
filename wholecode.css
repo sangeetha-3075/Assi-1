@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    font-family:"Poppins", sans-serif;
+}
+
+.head {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('./Images/people\ walking2.jpg') no-repeat center center/cover;
+    background-size: cover;
+    height: 100%;
+}
+
+.nav ul {
+    padding: 30px;
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+.nav a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size:x-small;
+    font-weight: 600;
+}
+
+.nav a:hover {
+    color: rgb(59, 165, 179); 
+}
+
+.nav h3 {
+    position: absolute;
+    top: 33px; 
+    left: 130px; 
+    font-size: larger; 
+    color: white;
+}
+
+.mid {
+    position: relative;
+    top: 20%;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.but {
+    margin-top: 20px;
+}
+
+.butt1,.butt2 {
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 10px;
+}
+
+.butt1:hover, .butt2:hover {
+    background-color: red; 
+    border-color: red;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+.matter {
+    max-width: 40%;
+    margin-left: 90px;
+    margin-top: 5px;
+    
+}
+.img01 {
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 150px;
+    justify-content: center;
+    align-items: center; 
+}
+.mat1 {
+    font-size: 15px;
+    padding-left: 50px;
+    font-weight: 700;
+    line-height: 25px;
+    color: black;
+}
+.mat2{
+    padding-left: 50px;
+}
+img {
+    height: 200px; 
+    width: 80%; 
+}
+.neer{
+    
+    background-color: black;
+    height: 220px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+.cont01{
+    margin: 30px;
+
+}
+.neers{
+    text-align: center;
+    max-width: 200px;
+    margin-top: 30px;
+}
+#im1{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+p{
+    color: gray;
+}
+.thirdslide{
+    margin: 20px;
+    padding: 10px;
+}
+.container11 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+.matter11 {
+    max-width: 50%;
+    margin-left: 80px;
+}
+.vid11 {
+    max-width: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.mat11 {
+    font-size: 20px;
+    color: black;
+    line-height: 30px;
+}
+.matt11{
+    line-height: 25px;
+
+}
+video {
+    height: 250px; 
+    width: 400px; 
+    
+    margin-right: 80px;
+}
+
+.cont22 {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding: 20px;
+    
+}
+
+.container22 {
+    width: 80%;
+    max-width: 1000px;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.header22 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.header22 h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header22 p {
+    color: #777;
+    margin: 5px 0 15px;
+}
+
+.speakers22 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.speaker22 {
+    flex: 1;
+    text-align: center;
+}
+
+.speaker22 img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.speaker22 h3 {
+    margin: 10px 0 5px 0;
+}
+
+.speaker22 p {
+    margin: 0;
+    color: #777;
+}
+
+
+
+.main33 {
+    width: 80%;
+    padding: 20px;
+}
+
+.nav33 {
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #eee;
+}
+
+.nav33 li {
+    margin-right: 20px;
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+.nav33 li.sel33 {
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+
+.event33 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.event33 img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+
+.cont44 {
+    font-family: Arial, sans-serif;
+    background: url('./Images/six1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container44 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.right44 {
+    width: 45%;
+}
+
+.in44,.butt44  {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+form button {
+    background-color: #f55858;
+    color: white;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #e04545;
+}
+
+
+
+.cont77 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container77 {
+    position: relative;
+    width: 100%;
+    height: 70vh; 
+    background: url('./Images/sev.jpg') no-repeat center center;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto; 
+}
+
+.text77 {
+    position: absolute; 
+    top: center;
+    left: 30%;
+    color: #333; 
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.338); 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.p77{
+    line-height: 25px;
+}
+.add77{
+    line-height: 25px;
+}
+.text77 h2 {
+    font-size: 24px; 
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.overlay-text p,
+.overlay-text address {
+    font-size: 14px; 
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: black; 
+}
+
+.overlay-text address {
+    font-style: normal;
+}
+
+.overlay-text strong {
+    font-weight: bold;
+}
+
